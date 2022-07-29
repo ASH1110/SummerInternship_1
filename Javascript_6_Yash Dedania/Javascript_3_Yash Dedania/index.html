@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="2" cellpadding = "8px" cellspacing = "8px">
+        <tr>
+            <!-- <td colspan = "4" id = "text">
+                <span id="display"></span> 
+            </td> -->
+            <td colspan="4">
+                <p id = "display" class="answer"></p>
+            </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="%"class="btn"  id = "percentage"></td>
+            <td><input type="button" class="btn" value = "AC" id = "clear"></td>
+            <td><input type="button" class="btn" value = "C" id = "singeldelete"></td>
+            <td><input type="button" class="btn" value = "/" id = "divide"></td>
+        </tr>
+        
+        <tr>
+            <td><input type="button" value="7" class="btn"  id = "seven"></td>
+            <td><input type="button" value="8"class="btn"  id = "eight"></td>
+            <td><input type="button" value="9"class="btn"  id = "nine"></td>
+            <td><input type="button" value="*"class="btn"  id = "multiply"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" value="4"class="btn"  id = "four"></td>
+            <td><input type="button" value="5"class="btn"  id = "five"></td>
+            <td><input type="button" value="6"class="btn"  id = "six"></td>
+            <td><input type="button" value="-"class="btn"  id = "substract"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" value="1"class="btn"  id = "one"></td>
+            <td><input type="button" value="2"class="btn"  id = "two"></td>
+            <td><input type="button" value="3"class="btn"  id = "three"></td>
+            <td><input type="button" value="+"class="btn"  id = "plus"></td>
+        </tr>
+        <tr>
+
+            <td><input type="button" value="+/-"class="btn"  id = "plusMinus"></td>
+            <td><input type="button" value="."class="btn"  id = "dot"></td>
+            <td><input type="button" value="0"class="btn"  id = "zero"></td>
+            <td><input type="button" class="btn" value="=" id = "equal"></td>
+            
+            
+        </tr>
+    </table>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> -->
+    <script src="javascript.js"></script>
+</body>
+</html>

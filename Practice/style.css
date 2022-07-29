@@ -1,0 +1,141 @@
+body{
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+ }
+
+.header_id{
+    background-color: #0262ac;
+    height: 152px;
+    width: 1170px;
+    margin: 0;
+}
+
+img{
+  width: 50%;
+    height:50px;
+    width:250px;
+    float:left;
+    margin-top: 20px;
+    padding-left: 50px;
+
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding-top:40px;
+    font-size: large;
+    padding-right: 40px;
+    margin: 10px;
+}
+
+.nav-list li {
+     margin: 0px 30px 30px 0px;
+     text-align: center;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: black;
+    
+}
+#account{
+   background-color: blue;
+   color: white;
+}
+.column {
+    float: left;
+    margin-top: 34px;
+    margin-bottom: 28px;
+    margin-right: 3px;
+  
+  }
+
+  .column.side {
+    width: 263px;
+    height: 708px;
+    background-color: #a44f51;
+    
+  }
+  
+  
+  .column.middle {
+    width: 867px;
+    height: 646px;
+    margin-left: 37px;
+    background-color: #d8d8d8;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.footer{
+    background-color: #ed1f24;
+    height: 158px;
+    width: 1170px;
+    padding: 30px;
+    color: white;
+    padding-right: 50px;
+    font-size: large;
+}
+.div1{
+  
+  display:block;
+  height: 19.49%;
+  width: 72.24%;
+   background-color: #0262ac;
+   margin:36px 38px 44px 35px;
+}
+.div2{
+  
+  display:block;
+  height: 9.03%;
+  width: 85.17%;
+  background-color: #ed8f1f;
+  margin: 0px 20px 24px 19px;
+  
+ 
+}
+.div3{
+  display: block;
+  background-color: #1f99ed;
+  width: 66.92%;
+  height: 50.28%;
+  margin: 0px 46px 46px 41px;
+  
+  
+}
+.div4{
+  display: block;
+  height: 470px;
+  width: 867px;
+  background-color: #b08de4;
+}
+.div6{
+  display: inline-block;
+  width: 38.98%;
+  height: 74.04%;
+  background-color: #0262ac;
+  margin: 36px 42px 86px 40px;
+
+}
+.div7{
+  
+  float: right;
+  width: 44.29%;
+  height: 63.40%;
+  background-color: #1fed8f;
+  margin: 36px 63px 136px 0px;
+
+} 
+.div5{
+display: block;
+height:176px;
+width: 867px;
+background-color: #1fc4ed;
+}
+

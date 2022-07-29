@@ -1,0 +1,29 @@
+
+.section1{
+    background-color: rgb(197,171,171);
+    height: 80vh;
+}
+
+.sidebar{
+    background-color: rgb(238, 163, 163);
+    height: 80vh;
+}
+.rightside{
+    height: 80vh;
+}
+.section1{
+    height: 45vh;
+}
+.section2{
+    background-color: rgb(197,171,171);
+    height: 33.8vh;
+}
+.section3{
+    background-color: rgb(197,171,171);
+    height: 33.8vh;
+    
+}
+.foor{
+    height: 10vh;
+    background-color: rgb(129,81,60);
+}
